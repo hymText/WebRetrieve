@@ -1,10 +1,24 @@
 WebRetrieve
 ===========
-This project aims to  
-1. get web pages related to given query.  
-2. analyse web pages and get it's body text.  
 
-It works on ruby (version 1.9 or above).
+概要:
+クエリのファイル
+=> 形態素解析 
+=> yahooサーチ 
+=> Web文書をファイルに出力するコード
+
+実行:
+ruby query_expand.rb
+
+input:
+./query_data/querylist.txt
+(クエリーを含んだファイル)
+
+output:
+./query_expand
+(1つ目クエリのweb文書の格納は
+./query_expand/u001/001.txt ~ 00n.txt ...
+の用に格納)
 
 Usage
 =====
